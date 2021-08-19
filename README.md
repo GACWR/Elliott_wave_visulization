@@ -10,7 +10,16 @@ However, it is not easy to identify the pattern at first sight. Hence, this proj
 - mplfinance==0.12.7a17
 - pandas-datareader==0.10.0
 
-## How to use
-'''python
+## Usage
+```python
+from elloite_method import *
 
-'''
+# Select the stock ID or indices you are interesting in from yahoo finance
+stock_id = "^DJI"
+
+# Choose the time period (year) you want to observe
+time_period_year = 1
+
+# Output the plot
+Elloite_plot(stock_id, start_date=datetime.date.today().replace(datetime.date.today().year - time_period_year), tick=3)
+```
