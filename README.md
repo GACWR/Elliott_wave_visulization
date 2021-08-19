@@ -1,6 +1,6 @@
 # Elliott Wave Principle Visulization
 
-This tool provide a quick way to identify the wave pattern of stock or indices.
+This tool provides a quick way to identify the wave pattern of stock or indices.
 
 ## Description
 The Elliott wave principle was introduced by Ralph Nelson Elliott in 1938, including impulse wave and corrective wave.
