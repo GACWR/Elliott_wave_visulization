@@ -95,7 +95,7 @@ def Elloite_plot(stock_code, start_date, tick=4):
     
     df = df.drop(columns=["date"])
 
-    turnover_point = make_plot(df, stock_code, tick)
+    make_plot(df, stock_code, tick)
 
 if __name__ == "__main__":
     pass

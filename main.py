@@ -1,4 +1,4 @@
-from elloite_method import *
+from elloite_method import Elloite_plot, datetime
 
 # This method is easy to use the only thing is to input the stock ID from yahoo finance and select the time period you need
 
