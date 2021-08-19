@@ -23,3 +23,5 @@ time_period_year = 1
 # Output the plot
 Elloite_plot(stock_id, start_date=datetime.date.today().replace(datetime.date.today().year - time_period_year), tick=3)
 ```
+## Result
+![alt text](https://github.com/WeiTaKuan/Elliott_wave_visulization/blob/main/example/Readme_1_1.png)
